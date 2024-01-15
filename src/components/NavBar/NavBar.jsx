@@ -13,7 +13,7 @@ const NavBar = () => {
             <div className="navbar-center hidden lg:flex">
             </div>
             <div className="navbar-end">
-                <a className="btn bg-[#eb1933] text-xl text-white">Sign In</a>
+                <a className="btn bg-[#eb1933] text-xl text-white">Sign in</a>
             </div>
         </div>
     );
