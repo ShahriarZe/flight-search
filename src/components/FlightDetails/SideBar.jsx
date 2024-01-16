@@ -121,6 +121,58 @@ const SideBar = () => {
                                 </div>
                             </div>
                         </div>
+
+
+                        <div className="border-t-2">
+                            <p className="font-bold mt-4">Airlines</p>
+                            <div className="flex justify-between mt-2">
+                                <div className="flex items-center gap-2 mb-2">
+                                    <input type="checkbox" className="checkbox checkbox-error" />
+                                    <span className="label-text">Biman Bangladesh Airlines</span>
+                                </div>
+                                <div>
+                                    BDT 5,816
+                                </div>
+                            </div>
+                            <div className="flex justify-between mt-2">
+                                <div className="flex items-center gap-2 mb-2">
+                                    <input type="checkbox" className="checkbox checkbox-error" />
+                                    <span className="label-text">US Bangla Airlines</span>
+                                </div>
+                                <div>
+                                    BDT 5,816
+                                </div>
+                            </div>
+                            <div className="flex justify-between mt-2">
+                                <div className="flex items-center gap-2 mb-2">
+                                    <input type="checkbox" className="checkbox checkbox-error" />
+                                    <span className="label-text">Air Astra</span>
+                                </div>
+                                <div>
+                                    BDT 5,816
+                                </div>
+                            </div>
+                            <div className="flex justify-between mt-2">
+                                <div className="flex items-center gap-2 mb-2">
+                                    <input type="checkbox" className="checkbox checkbox-error" />
+                                    <span className="label-text">Novo Air</span>
+                                </div>
+                                <div>
+                                    BDT 5,816
+                                </div>
+                            </div>
+                        </div>
+
+                        <div className="border-t-2">
+                            <p className="font-bold mt-4">Transit Time (Dhaka - Chittagong)</p>
+                            <div className="flex items-center gap-2 mt-2">
+                                <input type="checkbox" className="checkbox checkbox-error" />
+                                <span className="label-text">No Ttransit Time (19)</span>
+                            </div>
+                            <div>
+                                <button className="btn w-full mt-6 bg-[#eb1933] text-white text-xl">Clear Filter</button>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
