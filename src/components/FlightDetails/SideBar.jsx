@@ -47,14 +47,14 @@ const SideBar = () => {
                                 <span className="text-xs">sec</span>
                             </div>
                         </div>
-                        <div className="border-t-2">
+                        <div className="border-t-2  mb-4">
                             <p className="font-bold mt-4">One Way Price</p>
                             <input type="range" min={0} max={100} defaultValue={40} className="range range-error h-5 my-2" />
                             <p className="font-bold">5,816 tk - 7,390 tk</p>
                         </div>
                         <div className="border-t-2">
                             <p className="font-bold mt-4">Departure Time in Dhaka</p>
-                            <div className="grid grid-cols-2 gap-2 mt-2">
+                            <div className="grid grid-cols-2 gap-2 mt-2 mb-4">
                                 <div className="text-center font-bold border-2 border-black p-2 rounded-xl">
                                     <div className="flex justify-center text-xl">
                                         <FiSunrise />
@@ -79,6 +79,48 @@ const SideBar = () => {
                             </div>
                         </div>
 
+                        <div className="border-t-2">
+                            <p className="font-bold mt-4">Stops From Dhaka</p>
+                            <div className="flex justify-between mt-2">
+                                <div className="flex items-center gap-2 mb-2">
+                                    <input type="checkbox" className="checkbox checkbox-error" />
+                                    <span className="label-text">Remember me</span>
+                                </div>
+                                <div>
+                                    BDT 5,816
+                                </div>
+                            </div>
+                        </div>
+                        <div className="border-t-2">
+                            <p className="font-bold mt-4">Check in Baggage Allowance</p>
+                            <div className="flex items-center gap-2 mt-2">
+                                <input type="checkbox" className="checkbox checkbox-error" />
+                                <span className="label-text">20 kg</span>
+                            </div>
+                        </div>
+                        <div className="border-t-2">
+                            <p className="font-bold mt-4">Refundable</p>
+                            <div className="flex items-center gap-2 mt-2">
+                                <input type="checkbox" className="checkbox checkbox-error" />
+                                <span className="label-text">Partially Refundable (19)</span>
+                            </div>
+                        </div>
+                        <div className="border-t-2">
+                           <div className="flex justify-between">
+                          <div> <p className="font-bold mt-4">Stops From Dhaka</p></div>
+                          <div> <p className="font-bold mt-4">Arriving at</p></div>
+                           </div>
+                            <div className="flex justify-between mt-2">
+                                <div className="flex items-center gap-2 mb-2">
+                                    <input type="checkbox" className="checkbox checkbox-error" />
+                                    <span className="label-text">DAC</span>
+                                </div>
+                                <div className="flex items-center gap-2 mb-2">
+                                    <input type="checkbox" className="checkbox checkbox-error" />
+                                    <span className="label-text">CGP</span>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
