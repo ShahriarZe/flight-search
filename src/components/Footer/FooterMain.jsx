@@ -9,7 +9,7 @@ import { FaPinterestP } from "react-icons/fa";
 const FooterMain = () => {
     return (
         <div>
-            <footer className="footer p-10 text-base-content justify-evenly">
+            <footer className="footer p-10 text-base-content justify-evenly border-b-2 mt-20">
                 <aside className='text-[#eb1933]'>
                     <img src={logo} alt="" />
                     <p>Flight Expert Dhaka (Main Branch)</p>
@@ -39,9 +39,9 @@ const FooterMain = () => {
                 </nav>
                 <nav>
                     <header className="footer-title">Have Questions ?</header>
-                    <a className="link link-hover">+88-09617-111-888</a>
-                    <a className="link link-hover">sales@flightexpert.com</a>
-                    <a className="link link-hover">Dedicated Customer Support</a>
+                    <a className="link link-hover text-[#eb1933]">+88-09617-111-888</a>
+                    <a className="link link-hover text-[#eb1933]">sales@flightexpert.com</a>
+                    <a className="link link-hover font-bold">Dedicated Customer Support</a>
                 </nav>
                 <nav>
                     <header className="footer-title">Accepted Payments</header>
