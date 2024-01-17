@@ -1,9 +1,16 @@
 import { FaArrowRight } from "react-icons/fa6";
 import { FaArrowLeft } from "react-icons/fa6";
 import { IoIosArrowDown } from "react-icons/io";
+import bg from '../../assets/bg.webp'
 const Banner = () => {
+
+    const bgstyle = {
+        backgroundImage: `url(${bg})`,
+        backgroundRepeat: 'no-repeat',
+        backgroundSize: 'cover',
+    }
     return (
-        <div>
+        <div className="min-h-[50vh]" style={bgstyle}>
             <div className="container mx-auto bg-base-100 mt-10 p-4 shadow-2xl rounded-2xl">
                 <div className="flex gap-6 font-bold mb-6">
                     <div className="flex gap-2">
