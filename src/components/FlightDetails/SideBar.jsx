@@ -167,7 +167,7 @@ const SideBar = () => {
                             <p className="font-bold mt-4">Transit Time (Dhaka - Chittagong)</p>
                             <div className="flex items-center gap-2 mt-2">
                                 <input type="checkbox" className="checkbox checkbox-error" />
-                                <span className="label-text">No Ttransit Time (19)</span>
+                                <span className="label-text">No Transit Time (19)</span>
                             </div>
                             <div>
                                 <button className="btn w-full mt-6 bg-[#eb1933] text-white text-xl">Clear Filter</button>

@@ -3,7 +3,7 @@ import SideBar from "./SideBar";
 
 const FlightDetails = () => {
     return (
-        <div className="container mx-auto mt-10">
+        <div className="container mx-auto mt-20">
             <div className="flex flex-col lg:flex-row gap-4">
                 <div>
                     <SideBar></SideBar>

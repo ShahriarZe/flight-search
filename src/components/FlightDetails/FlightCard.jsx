@@ -1,11 +1,17 @@
 import air from '../../assets/air.png'
 import arrow from '../../assets/arrow.webp'
 import { IoIosArrowDown } from "react-icons/io";
+import { FaArrowRight } from "react-icons/fa6";
+import { FaArrowLeft } from "react-icons/fa6";
 const FlightCard = () => {
     return (
         <div>
             <div>
-                <h2 className="text-center font-bold text-4xl">Flights From Dhaka to Chittagong</h2>
+                <div className='flex justify-between items-center'>
+                    <p className='text-[#eb1933] text-4xl'><FaArrowLeft /></p>
+                    <h2 className="text-center font-bold text-4xl">Flights From Dhaka to Chittagong  </h2>
+                    <p className='text-[#eb1933] text-4xl'><FaArrowRight /></p>
+                </div>
                 <div className="flex flex-col lg:flex-row justify-center mt-6">
                     <div className="card w-full bg-gray-200 shadow-xl">
                         <div className="card-body">
@@ -196,11 +202,11 @@ const FlightCard = () => {
                 </div>
 
                 <div className="pagination  flex justify-end mt-4">
-      <button className="pagination-item btn btn-square bg-[#eb1933] text-white" aria-label="1">1</button>
-      <button className="pagination-item btn btn-square bg-[#eb1933] text-white" aria-label="2">2</button>
-      <button className="pagination-item btn btn-square bg-[#eb1933] text-white" aria-label="3">3</button>
-      <button className="pagination-item btn btn-square bg-[#eb1933] text-white" aria-label="4">4</button>
-    </div>
+                    <button className="pagination-item btn btn-square bg-[#eb1933] text-white" aria-label="1">1</button>
+                    <button className="pagination-item btn btn-square bg-[#eb1933] text-white" aria-label="2">2</button>
+                    <button className="pagination-item btn btn-square bg-[#eb1933] text-white" aria-label="3">3</button>
+                    <button className="pagination-item btn btn-square bg-[#eb1933] text-white" aria-label="4">4</button>
+                </div>
             </div>
         </div>
     );
