@@ -1,1 +1,3 @@
 # Live : https://flight-search-5be60.web.app/
+
+## With API endpoints into this front-end code, empowering users to easily search for flights based on destinations, dates, and airlines of their choice. Craft an intuitive interface that allows users to access detailed flight information, including departure and arrival times, durations, and pricing. Elevate the user experience by implementing a secure payment gateway to facilitate smooth booking transactions. Keep this website current by regularly syncing with the API to reflect real-time data, ensuring accuracy and reliability. This integration ensures that users can effortlessly navigate through the entire flight search and booking process, making this website a one-stop solution for their travel needs.
